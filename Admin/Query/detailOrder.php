@@ -1,0 +1,9 @@
+<?php
+    $level="../";
+    include($level."config.php");
+    include($level.DB_path."connect.php");
+	include($level.Head_path."HeadForm.php");
+    include($level.Content_path."Bar.php");
+    include($level.Content_path."Form-detail-order.php");
+    include($level.Script_path."JavaScripts-Admin.php");
+?>
